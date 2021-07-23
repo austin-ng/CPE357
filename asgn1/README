@@ -1,0 +1,8 @@
+Name: Austin Ng
+Instructions for running detab:
+1) Create a text file that contains tabs (e.g. "He	llo, world!")
+2) Compile detab.c and run the code with the text file as input:
+	./detab < textfile
+3) The program will output the given text file with the appropriate spaces.
+	The output may be written to an output file:
+	./detab < textfile > detab.out
